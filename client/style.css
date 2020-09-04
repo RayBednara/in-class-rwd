@@ -112,7 +112,8 @@ nav > a:link {
 }
 
 .is-expanded {
-  transform: scale(1);
+  height: 37vh;
+  transform: scaleY(1);
   transition: all 0.4s linear;
 }
 
