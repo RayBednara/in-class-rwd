@@ -102,6 +102,19 @@ nav > a:link {
   padding: 1rem 1.5rem;
 }
 
+/* JS classes */
+
+.is-collapsed {
+  height: 0;
+  padding: 0;
+  transform: scaleY(0);
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.is-expanded {
+  height: 342px;
+}
+
 #cta {
   background-color: var(--primary-color);
   color: white;
