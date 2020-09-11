@@ -2,6 +2,7 @@
   --primary-color: #3db36b;
   --secondary-color: #00adff;
   --warning-color: #ff7e2e;
+  --danger-color: #ff3e6b;
 }
 
 body {
@@ -159,6 +160,14 @@ nav > a:link {
   height: 37vh;
   transform: scaleY(1);
   transition: all 0.4s linear;
+}
+
+.is-invalid-input {
+  border: solid thin var(--danger-color);
+}
+
+.is-valid-input {
+  border: solid thin var(--primary-color);
 }
 
 #cta {
