@@ -24,8 +24,11 @@
   "prettier.requireConfig": true,
   "stylelint.enable": true,
   "terminal.integrated.fontFamily": "'Inconsolata', monospace",
-  "workbench.colorTheme": "Community Material Theme High Contrast",
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.view.alwaysShowHeaderActions": true
+  "workbench.view.alwaysShowHeaderActions": true,
+  "cSpell.ignoreWords": [
+    "profi"
+  ]
 }
