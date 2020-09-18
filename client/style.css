@@ -141,6 +141,21 @@ nav > a:link {
   background-color: var(--warning-color);
 }
 
+.text-button {
+  background-color: transparent;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+.text-button--warning {
+  color: var(--warning-color);
+}
+
+.text-button--secondary {
+  color: var(--secondary-color);
+}
+
 .hide {
   left: -9999px;
   position: relative;
